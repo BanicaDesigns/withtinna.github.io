@@ -18,6 +18,9 @@
 body{
     font-family: myFirstFont;
 }
+html{
+    overflow-x:hidden;
+}
 
 /************************************************
 *****************HEADER**************************
@@ -331,6 +334,21 @@ body{
         background-size: cover;
         background-color: #464646;
     }
+}
+.video-box{
+    width:460px;
+    height: 400px;
+    background-color: #dddddd;
+    display: table-cell;
+    vertical-align: middle;
+}
+.about-content-box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+.about-content-box > p{
+    color: #3e3e3e;
 }
 
 

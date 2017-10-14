@@ -1,0 +1,343 @@
+  .row{
+    margin-right: 0px; 
+    margin-left: 0px; 
+  }
+@font-face{
+    font-family: myFirstFont;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: myFirstFont;
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+body{
+    font-family: myFirstFont;
+}
+
+/************************************************
+*****************HEADER**************************
+************************************************/
+
+/* NAVBAR */
+.navbar li a{
+    color:#000;
+}
+@media (max-width:960px){
+  .navbar li a{
+    color:#fff;
+    text-align: center;
+    }    
+    .navbar-collapse{
+    background-color: #3e3e3e;
+} 
+}
+.navbar.navbar-fixed-top.fixed-theme.navbar li a{
+    color: #fff;
+}
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+}
+.navbar-right{
+    margin-right: 20px !important;
+}
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #3e3e3e;
+    border-color: #3e3e3e;
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.navbar-brand.fixed-theme{
+    color:black;
+}
+.navbar-toggle .icon-bar {
+    margin-top: 4px;
+    background-color: #fff;;
+}
+#brand img{
+    width: 150px;
+}
+/* TOP HEADER */
+
+@media(min-width:992px) {
+    .top-header{
+        height: 100vh;
+    }
+    .left-side-head, .right-side-head{
+        height: 100% !important;
+    }
+}
+@media(max-width:992px) {
+    .left-side-head{
+        width: 100%;
+    }
+    .left-face, .right-face{
+        opacity: 0.3;
+    }
+    .right-side-head{
+        padding-left:0px !important;
+    }
+    .header-content-box-left, .header-content-box-right{
+        text-align: center;
+        width: 100% !important;
+    }
+    .input-group-btn{
+        display: inline-table !important;
+    }
+    .qustion-us{
+        text-align: center !important;
+    }
+}
+.left-side-head{
+    background-color: #3e3e3e;
+    min-height: 560px;
+    display: table;
+    z-index: 8;
+}
+.right-side-head{
+    background-color: #dddddd;
+    min-height: 560px;
+    display: table;
+    padding-left: 20%;
+}
+.left-face{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 380px;
+}
+.right-face{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 380px;
+}
+.header-content-box-left{
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+    position: relative;
+    width: 50%;
+    padding-left: 25px;
+    z-index: 9;
+    text-align: center;
+}
+.header-content-box-left h1, h2, h3{
+    color: #f1c700;
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+.header-content-box-right h1, h2, h3{
+    color: #f1c700;
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 2px;
+    word-break: break-word;
+}
+.header-content-box-right{
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+    position: relative;
+    width: 50%;
+    z-index: 9;
+    text-align: center;
+    color: #000;
+    width: 80%;
+}
+.header-content-box p{
+    width: 240px;
+    margin: 0 auto;
+}
+.our-btn{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: solid 1px #fff;
+    border-radius: 11px;
+    margin: 10px;
+
+    /* Fix from navbar.scss */
+    border-top-left-radius: 11px !important;
+    border-bottom-left-radius: 11px !important;
+
+}
+.our-btn:hover{
+    background-color: #fff;
+    color:#f1c700;
+    border: solid 1px #fff;
+}
+.our-btn-reversed{
+    color:#000 !important;
+    border:solid 1px #000 !important;
+}
+.our-btn-reversed:hover{
+    background-color: #f1c700;
+    color:#fff !important;
+    border: solid 1px #f1c700 !important;
+    
+}
+
+.soc-icons{
+    bottom: 0px;
+    position: absolute;
+    margin: 10px;
+    width: 100%;
+}
+.qustion-us{
+    bottom: 0px;
+    position: absolute;
+    margin: 10px;
+    width: 100%;
+    text-align: right;
+}
+.qustion-us span:nth-child(1){
+    font-size: 1.2em;
+}
+.qustion-us span:nth-child(3){
+    font-weight: bold;
+    color:#3e3e3e;
+}
+.soc-icons a img{
+    width: 50px;
+}
+
+/************************************************
+*****************SERVICES***********************
+************************************************/
+
+.services-box{
+    background-color: #fff;
+    position: relative;   
+}
+
+.service-box span{
+    font-size: 1.4em;
+}
+#services .services-box span{
+    font-weight: bold;
+}
+#services .services-box i{
+    font-weight: bold;
+    font-size: 60px;
+    color: #f1c700;
+}
+#services .row{
+    margin-bottom: 2%;
+}
+
+
+@media(min-width:768px){
+    .services-box{
+        height: 80%;
+    }
+    #services > p{
+        position: absolute;
+    }
+}
+#services > h1{
+    margin-top: 0px !important;
+    color:#f1c700;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+@media (min-width:960px){
+    #services{
+        height:100vh;}
+        .services-box{
+            height: auto;
+                padding: 3% 2%;
+                top: 55%;
+                right: 3%;
+                -webkit-transform: translateY(-60%);
+                -ms-transform: translateY(-60%);
+                transform: translateY(-60%);
+        }
+    }
+@media (max-width:960px){
+   
+}
+#services{
+    position: relative;
+    background: linear-gradient(90deg, #dddddd 50%,#3e3e3e 50%);
+  background-image: url();
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+@media (max-width:991px){
+    
+}
+
+
+
+
+  /* ABOUT US */
+    #aboutus{
+        background-color: #f1f1f1;
+    } 
+    .about-content{
+        text-align: center;
+    } 
+    .about-content-box{
+        display: table-cell;
+        vertical-align: middle;
+        color: #FFFFFF;
+        position: relative;
+        width: 50%;
+        z-index: 9;
+        text-align: center;
+        height:50vh;
+    } 
+  @media(min-width:768px){
+    #aboutus{
+        height: 100vh;
+        background-image: url(../images/about_bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+    }
+}
+
+
+
+
+/* SHOWCASE */
+#showcase{
+    height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,e5e5e5+50,ffffff+51,ffffff+55,ffffff+100 */
+background: #eaeaea; /* Old browsers */
+background: -moz-linear-gradient(top, #eaeaea 0%, #e8e5e4 50%, #ffffff 50%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #eaeaea 0%,#e8e5e4 50%,#ffffff 50%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #eaeaea 0%,#e8e5e4 50%,#ffffff 50%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}

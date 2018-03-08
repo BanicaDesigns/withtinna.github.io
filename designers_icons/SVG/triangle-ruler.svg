@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="triangle-ruler" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<g id="triangle-ruler-triangle-ruler">
+	<rect fill="#80C2B8" width="1024" height="1024"/>
+	<g id="triangle-ruler-triangle-ruler_1_">
+		<g>
+			<g>
+				<path fill="#FFFFFF" d="M712,712H312V312L712,712L712,712z M332.2974,691.7031h330.7041L332.2974,360.999V691.7031
+					L332.2974,691.7031z"/>
+			</g>
+			<g>
+				<path fill="#FFFFFF" d="M502.1089,633.5166H400.6226c-5.6045,0-10.1485-4.5391-10.1485-10.1484V521.8916
+					c0-4.1035,2.4722-7.8096,6.2632-9.376c3.8008-1.5957,8.1567-0.7139,11.0601,2.2002l101.4873,101.4766
+					c2.9038,2.9043,3.771,7.2646,2.1997,11.0615C509.9136,631.0498,506.2124,633.5166,502.1089,633.5166L502.1089,633.5166z
+					 M410.771,613.2197h66.834l-66.834-66.8291V613.2197L410.771,613.2197z"/>
+			</g>
+		</g>
+		<g>
+			<polygon fill="#FFFFFF" points="362.7432,471.8809 312,471.8809 312,451.584 362.7432,451.584 362.7432,471.8809 			"/>
+		</g>
+		<g>
+			<polygon fill="#FFFFFF" points="362.7432,554.1416 312,554.1416 312,533.8438 362.7432,533.8438 362.7432,554.1416 			"/>
+		</g>
+		<g>
+			<polygon fill="#FFFFFF" points="362.7432,636.4102 312,636.4102 312,616.1133 362.7432,616.1133 362.7432,636.4102 			"/>
+		</g>
+	</g>
+</g>
+</svg>

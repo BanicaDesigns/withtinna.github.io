@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/ionicons-2.0.1/css/ionicons.css">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -24,12 +30,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="brand" class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <a id="brand" class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#showcase">Services</a></li>
+                    <li><a href="#showcase" class="button">Services</a></li>
                     <li><a href="#blog">About</a></li>
                     <li><a href="#about">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -38,9 +44,76 @@
         </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
+    <div class="on-desktop-only on-background">
+        <div id="wrap1">
+            <img id="bg1" class="bg1" src="images/bg.png" alt="">
+        </div>
+        <div id="wrap2">
+            <img id="bg2" src="images/bg2.png" alt="">
+        </div>
+    </div>
+                
+                <div class="row top-header on-desktop-only">
 
-<div class="row top-header">
+    <div class="col-md-6 left-side-head left-side-head-animate">
+        <div class="header-content-box-left">
+            <span><i class="ion-ios-shuffle" style="font-size:68px;padding:5px;"></i></span>
+            <h1>We are hybrid</h3>
+            <p>We combine our skills to provide you an otpimal and ultimate service that every good business deserves.</p>
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default our-btn">Learn more</button>
+            </span>
+        
+            <div class="soc-icons">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="#"><img src="images/fb.png" alt=""></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#"><img src="images/insta.png" alt=""></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#"><img src="images/youtube.png" alt=""></a>
+                        </div>            
+                    </div>
+                </div>
+            
+        </div>
+        
+       <!-- <img class="left-face img-responsive" src="images/left-face.png" alt="">-->
+        <div class="bg"></div>
+
     
+
+    </div>
+    <div class="col-md-6 right-side-head right-side-head-animate">
+        <div class="header-content-box-right">
+            <span><i class="ion-ios-people-outline " style="font-size:68px;"></i></span>
+            <h1>User/ people friendly</h3>
+            <p>Thanks to previous experience now we have stable method for workflow that gerantee the best and fastest collibration.</p>
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default our-btn our-btn-reversed">Hire us</button>
+            </span>
+        
+            <div class="qustion-us">
+                    <div class="row">
+                        
+                        <span style="">We don't hesitate to answer.</span></br>
+                        <span><i class="icon ion-ios-email-outline" style="font-size:22px;padding:5px;"></i>duosign@gmail.com</span>  
+                         
+                    </div>
+                </div>
+            
+        </div>
+
+       <!-- <img class="right-face img-responsive" src="images/right-face.png" alt="">-->
+    </div>
+</div>
+
+</div>
+
+<div class="row top-header on-mobile-only">
+
     <div class="col-md-6 left-side-head">
         <div class="header-content-box-left">
             <span><i class="ion-ios-shuffle" style="font-size:68px;padding:5px;"></i></span>
@@ -66,7 +139,11 @@
             
         </div>
         
-        <img class="left-face img-responsive" src="images/left-face.png" alt="">
+       <img class="left-face img-responsive" src="images/left-face.png" alt="">
+        <div class="bg"></div>
+
+    
+
     </div>
     <div class="col-md-6 right-side-head">
         <div class="header-content-box-right">
@@ -88,13 +165,11 @@
             
         </div>
 
-        <img class="right-face img-responsive" src="images/right-face.png" alt="">
+       <img class="right-face img-responsive" src="images/right-face.png" alt="">
     </div>
-
 </div>
 
-
-
+</div>
 
 
 
@@ -126,45 +201,48 @@
     <div class="services-box col-md-8">
         <div class="row">
             <div class="col-sm-4">
-                <i class="ion-ios-shuffle"></i></br>
-                <span>WEB DESIGN</span></br>
+               <img src="designers_icons/SVG/web-design.svg">
+                <span>GRAPHIC/WEB DESIGN</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p>
             </div>
             <div class="col-sm-4">
-                <i class="ion-ios-shuffle"></i></br>
-                <span>GRAPHIC DESIGN</span></br>
+                <img src="designers_icons/SVG/color-palette.svg">
+                <span>Branding</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p>
             </div>
             <div class="col-sm-4">
-                <i class="ion-ios-shuffle"></i></br>
+                <img src="designers_icons/SVG/screen-infinity.svg">
                 <span>VIDEO EDITING</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <i class="ion-ios-shuffle"></i></br>
+                <img src="designers_icons/SVG/shapes.svg">
                 <span>CONCEPT ARTWORK</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p>
             </div>
             <div class="col-sm-4">
-                <i class="ion-ios-shuffle"></i></br>
+                <img src="designers_icons/SVG/cube.svg">
                 <span>3D MODELING</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p>
             </div>
-            <div class="col-sm-4"><i class="ion-ios-shuffle"></i></br>
+            <div class="col-sm-4">
+                    <img src="designers_icons/SVG/printer.svg">
                 <span>PRE-PRINT</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p></div>
         </div>
         <div class="row">
-            <div class="col-sm-4"><i class="ion-ios-shuffle"></i></br>
+            <div class="col-sm-4">
+                    <img src="designers_icons/SVG/mobile-design.svg">
                 <span>MOBILE UI/UX</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p></div>
-            <div class="col-sm-4"><i class="ion-ios-shuffle"></i></br>
+            <div class="col-sm-4">
+                    <img src="designers_icons/SVG/logo-design.svg">
                 <span>SEO optimization</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p></div>
             <div class="col-sm-4">
-                <i class="ion-ios-shuffle"></i></br>
+                    <img src="designers_icons/SVG/layers.svg">
                 <span>Other</span></br>
                 <p>lorem isoum ku demek ubu sik el pir.</p>
             </div>
@@ -172,32 +250,97 @@
     </div>
     
 
-
 </div>
-
-<!--
-    <div id="aboutus" class="row justify-content-end">
-        <div class="col-md-6">
-
-        </div>
-        <div class="col-md-6 about-content">
-            <div class="about-content-box"></div>
-            <h2>WHY WE ARE SO GOOD</h2>
-            <p>Whatch our video to learn about us and our idea.</p>
-            <button class="our-btn-reversed our-btn"><i class="ion-arrow-right-b"></i> Play</button>
-        </div>
+<div id="portfolio">
+    <div class="color-list">
         
-    </div>
-
-<!-- Showcase 
-<div id="showcase">
-    
+         <section class="color" style="padding:0px;background:#3e3e3e; background-image:url('images/project1.jpg');">
+            <div class="project-content">
+                <button class="view-button"><i class="ion-ios-eye"></i></br></button>
+            </div>
+            <div class="overlay-project"></div> 
+         </section>
+       
+         <section class="color" style="padding:0px;background:#3e3e3e; background-image:url('images/project2.jpg');">
+            <div class="project-content">
+                <button class="view-button"><i class="ion-ios-eye"></i></br></button>
+            </div>
+            <div class="overlay-project"></div>
+         </section>
+         
+         <section class="color" style="padding:0px;background:#3e3e3e; background-image:url('images/project3.jpg');">
+            <div class="project-content">
+                <button class="view-button"><i class="ion-ios-eye"></i></br></button>
+            </div>
+            <div class="overlay-project"></div>
+         </section>
+       
+       </div>
 </div>
--->
 
-
-
-
+<!-- CONTACT FORM -->
+<div class="container" id="contact-form">
+        
+                    <div class="fs-form-wrap" id="fs-form-wrap">
+                        <div class="fs-title">
+                            <h1>It's so easy to contact us.</h1>
+                        </div>
+                        <form id="myform" class="fs-form fs-form-full" autocomplete="off">
+                            <ol class="fs-fields">
+                                <li>
+                                    <label class="fs-field-label fs-anim-upper" for="q1">What's your name?</label>
+                                    <input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Your name" required/>
+                                </li>
+                                <li>
+                                    <label class="fs-field-label fs-anim-upper" for="q2" data-info="We won't send you spam, we promise...">What's your email address?</label>
+                                    <input class="fs-anim-lower" id="q2" name="q2" type="email" placeholder="mail@write.us" required/>
+                                </li>
+                                <li data-input-trigger>
+                                    <label class="fs-field-label fs-anim-upper" for="q3" data-info="This will help us know what kind of service you need">What's your type of wonder?</label>
+                                    <div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+                                        <span><input id="q3b" name="q3" type="radio" value="conversion"/><label for="q3b" class="radio-conversion">Logo</label></span>
+                                        <span><input id="q3c" name="q3" type="radio" value="social"/><label for="q3c" class="radio-social">Website</label></span>
+                                        <span><input id="q3a" name="q3" type="radio" value="mobile"/><label for="q3a" class="radio-mobile">Other</label></span>
+                                    </div>
+                                </li>
+                                <!--<li data-input-trigger>
+                                    <label class="fs-field-label fs-anim-upper" data-info="We'll make sure to use it all over">Choose a color for your website.</label>
+                                    <select class="cs-select cs-skin-boxes fs-anim-lower">
+                                        <option value="" disabled selected>Pick a color</option>
+                                        <option value="#588c75" data-class="color-588c75">#588c75</option>
+                                        <option value="#b0c47f" data-class="color-b0c47f">#b0c47f</option>
+                                        <option value="#f3e395" data-class="color-f3e395">#f3e395</option>
+                                        <option value="#f3ae73" data-class="color-f3ae73">#f3ae73</option>
+                                        <option value="#da645a" data-class="color-da645a">#da645a</option>
+                                        <option value="#79a38f" data-class="color-79a38f">#79a38f</option>
+                                        <option value="#c1d099" data-class="color-c1d099">#c1d099</option>
+                                        <option value="#f5eaaa" data-class="color-f5eaaa">#f5eaaa</option>
+                                        <option value="#f5be8f" data-class="color-f5be8f">#f5be8f</option>
+                                        <option value="#e1837b" data-class="color-e1837b">#e1837b</option>
+                                        <option value="#9bbaab" data-class="color-9bbaab">#9bbaab</option>
+                                        <option value="#d1dcb2" data-class="color-d1dcb2">#d1dcb2</option>
+                                        <option value="#f9eec0" data-class="color-f9eec0">#f9eec0</option>
+                                        <option value="#f7cda9" data-class="color-f7cda9">#f7cda9</option>
+                                        <option value="#e8a19b" data-class="color-e8a19b">#e8a19b</option>
+                                        <option value="#bdd1c8" data-class="color-bdd1c8">#bdd1c8</option>
+                                        <option value="#e1e7cd" data-class="color-e1e7cd">#e1e7cd</option>
+                                        <option value="#faf4d4" data-class="color-faf4d4">#faf4d4</option>
+                                        <option value="#fbdfc9" data-class="color-fbdfc9">#fbdfc9</option>
+                                        <option value="#f1c1bd" data-class="color-f1c1bd">#f1c1bd</option>
+                                    </select>
+                                </li>-->
+                                <li>
+                                    <label class="fs-field-label fs-anim-upper" for="q4">Describe what you imagine.</label>
+                                    <textarea class="fs-anim-lower" id="q4" name="q4" placeholder="Describe here"></textarea>
+                                </li>
+                                <li>
+                                    <label class="fs-field-label fs-anim-upper" for="q5">What's your budget?</label>
+                                    <input class="fs-mark fs-anim-lower" id="q5" name="q5" type="number" placeholder="1000" step="100" min="100"/>
+                                </li>
+                            </ol><!-- /fs-fields -->
+                            <button class="fs-submit" type="submit">Send answers</button>
+                        </form><!-- /fs-form -->
+                    </div><!-- /fs-form-wrap -->
 
 
 
@@ -215,6 +358,9 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/selectFx.js"></script>
+<script src="js/fullscreenForm.js"></script>
 
 <script>
     $(document).ready(function(){
@@ -295,6 +441,48 @@ window.onscroll = function(e) {
  */
 offSetManager();
 });
+(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx( el, {
+						stickyPlaceholder: false,
+						onChange: function(val){
+							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
+						}
+					});
+				} );
+
+				new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' ); // for demo purposes only
+					}
+				} );
+            })();
+            //Face Animation
+            $(window).ready(function() {
+                var movementStrength = 42;
+                var height = movementStrength / $(window).height();
+                var width = movementStrength / $(window).width();
+                  $(window).mousemove(function(e){
+                            var pageX = e.pageX - ($(window).width() / 2);
+                            var pageY = e.pageY - ($(window).height() / 2);
+                            var newvalueX = width * pageX * -3 - 0;
+                            var newvalueY = height * pageY * -3- 50;
+                      
+                            document.getElementById("bg1").style.transform = "translate("+newvalueX+"px,"+newvalueY+"px)";
+                            document.getElementById("bg2").style.transform = "translate("+newvalueX+"px,"+newvalueY+"px)";
+                  });
+                });
+
+//GO TO DIV
+$(".button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#services").offset().top - 50
+    }, 2000);
+});
+
+
 </script>
 </body>
 </html>
